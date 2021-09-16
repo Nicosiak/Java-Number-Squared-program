@@ -4,19 +4,21 @@ import java.util.Scanner;
 public class OutputWithVars {
 public static void main(String[] args) {
 
-Scanner scnr = new Scanner(System.in);
+var scnr = new Scanner(System.in);
 
 int userNum;
 int userNum2;
 int result;
+
 /////Part 1
-System.out.println("Enter a integer:");
+System.out.println("Enter integer:");
 userNum = scnr.nextInt();  
     
 System.out.println("You entered: " + userNum);
 System.out.println(userNum + " squared is " + (userNum * userNum));
 System.out.println("and " + "cubed is " + (userNum * userNum * userNum) + "!!");
-////Part 2
+
+///Part 2
 System.out.println("Enter another integar: ");  
 
 userNum2 = scnr.nextInt();
@@ -24,8 +26,11 @@ result = userNum + userNum2;
 
 System.out.println(userNum + " + " + userNum2 + " is " + result);
 System.out.println(userNum + " * " + userNum2 + " is " + userNum * userNum2);
+
+
 }
 }
+
 
 
 
